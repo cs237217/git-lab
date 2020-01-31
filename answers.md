@@ -1,11 +1,11 @@
-#Answer1
+#Answer1:
 git version 2.17.1
 
-#Answer2
+#Answer2:
 user.name=Cameron Spaulding
 user.email=cs237217@ohio.edu
 
-#Answers3
+#Answers3:
 cspauldi@sp-017:~$ git --help
 usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
@@ -50,28 +50,71 @@ collaborate (see also: git help workflows)
 concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 
-#Answer4
+#//*************************************************************************************************
+// 
+//The bottom answers 4 ,5 ,and 6 were all commited before I could record the answers. I was       uncertain how to un-commit them so here is what I has from the log-status function
+//
+#//*************************************************************************************************
+
+
+#Answer4:
 README.md
 answers.md
 md
 
-#Answer5
+#Answer5:
 answers.md
 md
 
-#Answer6
+#Answer6:
+md
 
+#Answer7:
+md
 
+nothing to commit, working tree clean
 
+#Answer8:
+commit 26c62f72a81cc7ccb0685462cad283537df0b584 (HEAD -> master)
+Author: Cameron Spaulding <cs237217@ohio.edu>
+Date:   Thu Jan 30 19:48:48 2020 -0500
 
+    Here we go...
 
-
-#Answer8
-commit e7e935c69be6393df42f568e4e1cd7e6f317eac7 (HEAD -> master)
+commit e7e935c69be6393df42f568e4e1cd7e6f317eac7
 Author: Cameron Spaulding <cs237217@ohio.edu>
 Date:   Thu Jan 30 19:44:11 2020 -0500
 
     I hope the extra md is supposed to be there...
 
 
+#// I deleted the md file due to belief it was an error. 
+
+
+#Answer9:
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+#Answer10:
+No, the changes commited online where not represented in the local terminal.
+
+#Answer11:
+o https://github.com/cs237217/git-lab.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/cs237217/git-lab.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+The terminal rejected my push.
+
+#Answer12: 
+Yes! Finally the git pull function represented the changes made in GitHub in my terminal.
+
+#Answer13:
+.  ..  .git  .gitignore  README.md
 
